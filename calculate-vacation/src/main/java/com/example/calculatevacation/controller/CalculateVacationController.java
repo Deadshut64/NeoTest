@@ -12,7 +12,7 @@ import java.math.RoundingMode;
 @RequestMapping("/")
 public class CalculateVacationController {
 
-    @GetMapping
+    @GetMapping("/calculate")
 public double calculate(
         @RequestParam("salary") double salary,
         @RequestParam("vacation") int vacation
